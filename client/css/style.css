@@ -1,0 +1,22 @@
+body {
+	background-color: red;
+	height: 100%;
+}
+
+.centered {
+	text-align: center;
+}
+
+img {
+	height: 300px;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	background-color: white;
+}
+
+.half {
+	width: 50%;
+}
