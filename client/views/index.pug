@@ -7,7 +7,7 @@ html(lang='en')
     meta(name='author', content="Queen's Engineering Society")
     meta(name='keywords', content='Queens University, School, Forum, Engineering, Undergraduate')
     title Brolympiates Home
-    link(rel='icon', href='../assets/favicon.ico')
+    link(rel='icon', href='../assets/favicon.png')
     link(rel='stylesheet', href='/css/style.css')
     link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css', integrity='sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi', crossorigin='anonymous')
     script(src='https://code.jquery.com/jquery-3.1.1.min.js', integrity='sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=', crossorigin='anonymous')
@@ -30,4 +30,11 @@ html(lang='en')
         .col-xs-6
           button#messages
             h4 Message Board
+      .triple-div-row
+        #choreBank.hide-left.triple-div
+          include includes/choreBoard
 
+        #cent.center-holder.triple-div
+        #messageBank.hide-right.triple-div
+          include includes/messageBoard
+    include includes/modals/loginModal

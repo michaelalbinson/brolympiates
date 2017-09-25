@@ -20,3 +20,42 @@ button {
 .half {
 	width: 50%;
 }
+
+.hide-left {
+	display: inline-block;
+	left: -150%;
+	width: 100%;
+	background-color: orange;
+}
+
+.hide-right {
+	display: inline-block;
+	right: -150%;
+	width: 100%;
+	background-color: green;
+}
+
+.center-holder {
+	display: inline-block;
+	width: 100%;
+	right: 0;
+}
+
+.triple-div-holder {
+	clip: auto;
+	overflow-x: hidden;
+}
+
+.triple-div {
+	position: absolute;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+}
+
+td, th {
+	width: 25%;
+	align: center;
+}
